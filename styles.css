@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.image {
+    width: 200px; /* Defina o tamanho da imagem conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+#image-container {
+    margin-top: 50px;
+}
+
+#button-container {
+    margin-top: 30px;
+}
+
+.button-link {
+    display: block;
+    width: 200px; /* Define a largura dos botões */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 auto 15px; /* Centraliza os botões e adiciona espaçamento inferior */
+}
+
+.button-link + .button-link {
+    margin-top: 35px; /* Adiciona espaço entre os botões */
+}
